@@ -1,8 +1,8 @@
 /*
  * USART.h
  *
- *  Created on: ??þ/??þ/????
- *      Author: inter
+ *  Created on: 27/1/2012
+ *      Author:Eman
  */
 
 #ifndef USART_H_
