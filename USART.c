@@ -1,8 +1,8 @@
 /*
  * USART.c
  *
- *  Created on: ??þ/??þ/????
- *      Author: inter
+ *  Created on: 27/1/2012
+ *      Author:Eman
  */
 
 #include "USART.h"
@@ -31,7 +31,6 @@ static void USART_OperationModeSelection(USART_OperationMode OperationMode)
 	else if(OperationMode==Synchronous)
 	{
 		SET_BIT(UCSRC_REG,UMSEL);
-		//TODO:align
 	}
 	UCSRC_REG =UCSRC_MEM ;
 }
@@ -112,7 +111,6 @@ static void USART_CharacterSizeSelection(USART_CharacterSize CharacterSize)
 
 static void USART_ClockPolaritySelection(USART_ClockPolarity ClockPolarity)
 {
-	//TODO:CHANGE
 	SET_BIT(UCSRC_MEM,UMSEL);
 	if(ClockPolarity==TransimateRaising_RecieveFalling)
 	{
