@@ -1,8 +1,8 @@
 /*
  * Platform_Types.h
  *
- *  Created on: ??þ/??þ/????
- *      Author: inter
+ *  Created on: 1/1/2021
+ *      Author: Eman
  */
 
 #ifndef PLATFORM_TYPES_H_
